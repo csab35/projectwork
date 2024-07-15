@@ -20,12 +20,33 @@ Example: scenario: Succesfull registration
 Given I am on the registration page
 When i enter valid data(e-mail, password)
 Then i see confirmation message
-And i will be able to login with my mail-adress and my password
+And i will have a account
 
 Rules: User story 2:
+                     regisztrált adatokkal betudunk jelentkezni
+
+Example: scenario: Login is working with certain data
+
+Given I am on the login page
+When i enter registered data(e-mail, password)
+Then i will be able to you my own account
+
+
+Rules: User story 3:
                     Adott terméket/ket kidobja a keresőmező
 Example: scenario: Searching a product with keyword
 Given I am on the homepage
 When i enter a certain word in search bar
 And i press search button
 Then i should see te certain product
+
+Rules: User story 4:
+                   Kosár kezelése-A felhasználó módosíthatja a termékek mennyiségét a kosárban
+
+Example: scenario: Increasing the quantity of product in cart
+
+Given i have a product in my cart
+When i change the quantity of product to 2
+Then the cart should reflect the new quantity
+
+                    
