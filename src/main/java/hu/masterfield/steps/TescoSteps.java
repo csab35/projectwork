@@ -1,8 +1,10 @@
+package hu.masterfield.steps;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class MyStepdefs {
+public class TescoSteps {
     @Given("I am on the homepage")
     public void iAmOnTheHomepage() {
     }
