@@ -1,7 +1,6 @@
-Rules: User story 4:
-Kosár kezelése-A felhasználó módosíthatja a termékek mennyiségét a kosárban
+Feature:Mennyiség növelése a Kosárban
 
-Example: scenario: Increasing the quantity of product in cart
+Example: Increasing the quantity of product in cart
 
 Given i have a product in my cart
 When i change the quantity of product to 2
