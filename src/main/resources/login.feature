@@ -1,7 +1,7 @@
-Rules: User story 2:
-regisztrált adatokkal betudunk jelentkezni
+Feature:
+  Bejelentkezünk a regisztrált adatokkal
 
-Example: scenario: Login is working with certain data
+Example:Login is working with certain data
 
 Given I am on the login page
 When i enter registered data(e-mail, password)
