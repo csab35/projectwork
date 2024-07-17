@@ -1,24 +1,37 @@
 package hu.masterfield.pages;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage {
+public class HomePage extends BasePage {
+    @FindBy(xpath = "")
+    private WebElement acceptCookiesButton;
+    @FindBy(xpath = "//*[@id=\"search-input\"]")
+    private WebElement searchField;
 
-    @FindBy(xpath =)
-    WebElement SearchField;
+    @FindBy(xpath = "//*[@id=\"search-form\"]/button")
+    private WebElement searchButton;
 
-    @FindBy(xpath =)
-    WebElement SearchButton;
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
 
-    public SearchResultPage search(String productName){
+    public void acceptCookies() {
+        acceptCookiesButton.click();
+    }
+
+    public SearchResultPage search(String productName) {
 
         searchField.sendKeys(productName);
         searchButton.click();
         SearchResultPage searchResult = new SearchResultPage(driver);
         searchResult.isLoaded();
-        return SearchResult;
-
-
-
+        return searchResult;
+    }
+        public boolean isLoaded () {
+            return isLoaded(acceptCookiesButton)
+                    && isLoaded(searchField) && isLoaded(searchButton);
+        }
     }
 }
