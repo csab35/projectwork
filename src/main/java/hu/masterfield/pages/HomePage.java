@@ -26,13 +26,14 @@ public class HomePage extends BasePage {
 
         searchField.sendKeys(productName);
         searchButton.click();
-        SearchResultPage searchResult = new SearchResultPage(driver);
-        searchResult.isLoaded();
+        SearchResultPage searchResult = new SearchResultPage(driverInPageObject);
+        //searchResult.isLoaded();
         return searchResult;
     }
-        public boolean isLoaded () {
-            return isLoaded(acceptCookiesButton)
-                    && isLoaded(searchField) && isLoaded(searchButton);
-        }
+
+    public boolean isLoaded() {
+        return isLoaded(acceptCookiesButton)
+                && isLoaded(searchField) && isLoaded(searchButton);
     }
 }
+
