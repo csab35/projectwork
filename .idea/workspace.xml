@@ -6,16 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d06a0ee9-e619-4cf3-a9d7-7d4d5be775a6" name="Changes" comment="4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/masterfield/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/masterfield/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/masterfield/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/masterfield/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/masterfield/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/masterfield/steps/TescoSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/masterfield/steps/TescoSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/modifyquantity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/modifyquantity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/paying.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/paying.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/registration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +52,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/DT/projectwork/src/test/java",
-    "onboarding.tips.debug.path": "C:/DT/projectwork/src/main/java/hu/masterfield/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/DT/projectwork/src/test/java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/DT/projectwork/src/main/java/hu/masterfield/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -280,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721226985712</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="4">
+      <option name="closed" value="true" />
+      <created>1721308056205</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721308056205</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

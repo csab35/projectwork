@@ -19,6 +19,7 @@ public class TescoSteps {
 
     protected static WebDriverWait wait;
 
+
     HomePage homePage;
     private SearchResultPage search;
 
@@ -26,7 +27,7 @@ public class TescoSteps {
     @BeforeAll
     public static void setup() {
         ChromeOptions chromeOptions = new ChromeOptions();
-
+        chromeOptions.addArguments("--disable-blink-features=AutomationControlled");
 
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -54,7 +55,7 @@ public class TescoSteps {
 
     @Then("I should see the {string} product")
     public void iShouldSeeTheProduct(String product) {
-
-        search.verifyProductLoaded(product);
+        assertEquals("Találatok erre" + product + "", searchProduct.getText());
+        //search.verifyProductLoaded(product);
     }
 }
