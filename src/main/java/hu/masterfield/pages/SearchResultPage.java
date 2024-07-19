@@ -30,6 +30,8 @@ public class SearchResultPage extends BasePage {
 
     public void verifyProductLoaded(String product) {
         assertEquals(product, searchProduct.getText());
+        assertEquals("Találatok erre '" + product + "'"
+                , searchProduct.getText());
     }
 }
 

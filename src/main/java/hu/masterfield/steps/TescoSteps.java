@@ -55,7 +55,8 @@ public class TescoSteps {
 
     @Then("I should see the {string} product")
     public void iShouldSeeTheProduct(String product) {
-        assertEquals("Találatok erre" + product + "", searchProduct.getText());
-        //search.verifyProductLoaded(product);
+
+
+        search.verifyProductLoaded(product);
     }
 }
